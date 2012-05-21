@@ -18,18 +18,13 @@ long_line_behaviour=2
 long_line_column=120
 
 [files]
-current_page=10
+current_page=0
 FILE_NAME_0=460;Make;0;16;1;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Makefile.am;0;4
 FILE_NAME_1=530;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Application.vala;0;4
 FILE_NAME_2=2720;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/MainWindow.vala;0;4
 FILE_NAME_3=1473;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Side/FindPane.vala;0;4
 FILE_NAME_4=1978;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Views/SimpleFolderView.vala;0;4
 FILE_NAME_5=763;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Views/SearchResults.vala;0;4
-FILE_NAME_6=2163;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/docs-samples/frontend.vala;0;4
-FILE_NAME_7=296;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/docs-samples/backend.vala;0;4
-FILE_NAME_8=0;C;0;16;0;1;0;/home/hotnuma/Bureau/Projets/libfm_orig/src/gtk/fm-gtk-file-launcher.c;0;4
-FILE_NAME_9=0;C;0;16;0;1;0;/home/hotnuma/Bureau/Projets/libfm_orig/src/gtk/fm-gtk-file-launcher.h;0;4
-FILE_NAME_10=3187;C;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/egg/fm-gtk-file-launcher.c;0;4
 
 [VTE]
 last_dir=/home/hotnuma/Bureau/Projets/deskmanager/src

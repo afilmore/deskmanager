@@ -19,8 +19,7 @@ deskmanager_SOURCES = \
 	Side/FindPane.vala \
 	Views/BaseView.vala \
 	Views/SimpleFolderView.vala \
-	Views/SearchResults.vala \
-	Views/TerminalView.vala
+	Views/SearchResults.vala
 
 deskmanager_VALAFLAGS = \
 	--vapidir=$(top_srcdir)/vapi \

@@ -15,7 +15,7 @@
 public class FindPane : Gtk.ScrolledWindow, BasePane {
 
     private Gtk.Entry _search_entry;
-    
+    Gtk.ListStore store;
     public FindPane () {
         Object (hadjustment: null, vadjustment: null);
     }
@@ -23,7 +23,12 @@ public class FindPane : Gtk.ScrolledWindow, BasePane {
     construct {
     }
     
+    public void set_model (Gtk.ListStore global_store) {
+        store = global_store;
+    }
+    
     public bool create () {
+        
         Gtk.Box _box;
         _box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         _search_entry = new Gtk.Entry ();
@@ -43,7 +48,7 @@ public class FindPane : Gtk.ScrolledWindow, BasePane {
         string ex = _search_entry.get_text ();
         
         // create the output view
-        Gtk.ListStore store = app.window.create_search_results ();
+        //Gtk.ListStore store = app.window.create_search_results ();
         Gtk.TreeIter iter;
         
         string output;
