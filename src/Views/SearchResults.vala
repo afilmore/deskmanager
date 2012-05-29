@@ -33,11 +33,8 @@ public class SearchResults : Gtk.ScrolledWindow, BaseView {
     protected Gtk.ListStore _model;
     
     public SearchResults () {
+        
         Object (hadjustment: null, vadjustment: null);
-        _view.row_activated.connect(on_tree_clicked);
-    }
-    
-    construct {
         
         this._view = new Gtk.TreeView ();
         this._model = new Gtk.ListStore (
@@ -88,8 +85,7 @@ public class SearchResults : Gtk.ScrolledWindow, BaseView {
         this.add (this._view);
         this.show_all ();
 
-//        _view.row_activated.connect(on_tree_clicked);
-        
+        _view.row_activated.connect(on_tree_clicked);
     }
     
     public bool create () {
