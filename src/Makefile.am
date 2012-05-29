@@ -15,10 +15,8 @@ AM_CFLAGS =\
 deskmanager_SOURCES = \
 	Application.vala \
 	MainWindow.vala \
-	Side/BasePane.vala \
 	Side/FindPane.vala \
 	Views/BaseView.vala \
-	Views/SimpleFolderView.vala \
 	Views/SearchResults.vala
 
 deskmanager_VALAFLAGS = \

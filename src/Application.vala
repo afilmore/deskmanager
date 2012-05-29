@@ -1,47 +1,47 @@
-/*
- * Application.vala
+/***********************************************************************************************************************
+ *      
+ *      Application.vala
  * 
- * Copyright 2012 Axel FILMORE <axel.filmore@gmail.com>
+ *      Copyright 2012 Axel FILMORE <axel.filmore@gmail.com>
  * 
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License Version 2.
- * http://www.gnu.org/licenses/gpl-2.0.txt
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License Version 2.
+ *      http://www.gnu.org/licenses/gpl-2.0.txt
  * 
- * Purpose: Project Template.
+ *      Purpose:
  * 
- */
-
-Application app;
+ * 
+ *  
+ **********************************************************************************************************************/
+Application global_app;
 
 public class Application {
     
-    public Dm.Window? window;
+    private Manager.Window? _window;
     
     public bool run () {
         
-        FindPane.register_type ();
-        SimpleFolderView.register_type ();
-        SearchResults.register_type ();
-        TerminalView.register_type ();
+        _window = new Manager.Window ();
         
-        window = new Dm.Window ();
-        window.create ();
-        
-
         return true;
     }
     
-    public Dm.Window? get_window () {return window;}
+    public void search (string directory, string expression) {
+        
+        _window.create_search (directory, expression);
+    }
     
     private static int main (string[] args) {
         
         Gtk.init (ref args);
         
-        app = new Application ();
-        app.run ();
+        global_app = new Application ();
+        global_app.run ();
         
         Gtk.main ();
         return 0;
     }
 }
+
+
 

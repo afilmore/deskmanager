@@ -18,16 +18,12 @@ long_line_behaviour=2
 long_line_column=120
 
 [files]
-current_page=0
-FILE_NAME_0=460;Make;0;16;1;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Makefile.am;0;4
+current_page=1
+FILE_NAME_0=458;Make;0;16;1;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Makefile.am;0;4
 FILE_NAME_1=530;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Application.vala;0;4
-FILE_NAME_2=2720;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/MainWindow.vala;0;4
-FILE_NAME_3=1473;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Side/FindPane.vala;0;4
-FILE_NAME_4=1978;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Views/SimpleFolderView.vala;0;4
-FILE_NAME_5=763;Vala;0;16;0;1;0;/home/hotnuma/Bureau/Projets/deskmanager/src/Views/SearchResults.vala;0;4
 
 [VTE]
-last_dir=/home/hotnuma/Bureau/Projets/deskmanager/src
+last_dir=/home/hotnuma/Bureau/Projets/deskmanager
 
 [build-menu]
 EX_00_LB=_Exécuter
