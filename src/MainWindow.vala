@@ -54,7 +54,7 @@ namespace Manager {
         
         public void create_search (string directory, string expression) {
             
-            SearchResults search_results = new SearchResults ();
+            SearchView search_results = new SearchView ();
             _view.append_page (search_results);
             
             search_results.search (directory, expression);

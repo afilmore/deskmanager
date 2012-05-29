@@ -27,12 +27,12 @@ enum Column {
 }
     
 
-public class SearchResults : Gtk.ScrolledWindow, BaseView {
+public class SearchView : Gtk.ScrolledWindow, BaseView {
     
     protected Gtk.TreeView  _view;
     protected Gtk.ListStore _model;
     
-    public SearchResults () {
+    public SearchView () {
         
         Object (hadjustment: null, vadjustment: null);
         
@@ -143,7 +143,7 @@ public class SearchResults : Gtk.ScrolledWindow, BaseView {
         
     }
     
-    public new static GLib.Type register_type () {return typeof (SearchResults);}
+    public new static GLib.Type register_type () {return typeof (SearchView);}
 
 }
 
